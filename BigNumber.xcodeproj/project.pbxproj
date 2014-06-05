@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3432C781940D3D400500DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3432C771940D3D400500DEA /* AppDelegate.swift */; };
+		B3432C7A1940D3D400500DEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3432C791940D3D400500DEA /* Images.xcassets */; };
+		B3432C861940D3D400500DEA /* BigNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3432C851940D3D400500DEA /* BigNumberTests.swift */; };
+		B3432C901940D99B00500DEA /* NSDecimalNumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3432C8F1940D99B00500DEA /* NSDecimalNumberExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3432C801940D3D400500DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3432C6A1940D3D300500DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3432C711940D3D400500DEA;
+			remoteInfo = BigNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3432C721940D3D400500DEA /* BigNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3432C761940D3D400500DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3432C771940D3D400500DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3432C791940D3D400500DEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3432C7F1940D3D400500DEA /* BigNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3432C841940D3D400500DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3432C851940D3D400500DEA /* BigNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNumberTests.swift; sourceTree = "<group>"; };
+		B3432C8F1940D99B00500DEA /* NSDecimalNumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3432C6F1940D3D400500DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3432C7C1940D3D400500DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3432C691940D3D300500DEA = {
+			isa = PBXGroup;
+			children = (
+				B3432C741940D3D400500DEA /* BigNumber */,
+				B3432C821940D3D400500DEA /* BigNumberTests */,
+				B3432C731940D3D400500DEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3432C731940D3D400500DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3432C721940D3D400500DEA /* BigNumber.app */,
+				B3432C7F1940D3D400500DEA /* BigNumberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3432C741940D3D400500DEA /* BigNumber */ = {
+			isa = PBXGroup;
+			children = (
+				B3432C771940D3D400500DEA /* AppDelegate.swift */,
+				B3432C791940D3D400500DEA /* Images.xcassets */,
+				B3432C751940D3D400500DEA /* Supporting Files */,
+				B3432C8F1940D99B00500DEA /* NSDecimalNumberExtension.swift */,
+			);
+			path = BigNumber;
+			sourceTree = "<group>";
+		};
+		B3432C751940D3D400500DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3432C761940D3D400500DEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3432C821940D3D400500DEA /* BigNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3432C851940D3D400500DEA /* BigNumberTests.swift */,
+				B3432C831940D3D400500DEA /* Supporting Files */,
+			);
+			path = BigNumberTests;
+			sourceTree = "<group>";
+		};
+		B3432C831940D3D400500DEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3432C841940D3D400500DEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3432C711940D3D400500DEA /* BigNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3432C891940D3D400500DEA /* Build configuration list for PBXNativeTarget "BigNumber" */;
+			buildPhases = (
+				B3432C6E1940D3D400500DEA /* Sources */,
+				B3432C6F1940D3D400500DEA /* Frameworks */,
+				B3432C701940D3D400500DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigNumber;
+			productName = BigNumber;
+			productReference = B3432C721940D3D400500DEA /* BigNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3432C7E1940D3D400500DEA /* BigNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3432C8C1940D3D400500DEA /* Build configuration list for PBXNativeTarget "BigNumberTests" */;
+			buildPhases = (
+				B3432C7B1940D3D400500DEA /* Sources */,
+				B3432C7C1940D3D400500DEA /* Frameworks */,
+				B3432C7D1940D3D400500DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3432C811940D3D400500DEA /* PBXTargetDependency */,
+			);
+			name = BigNumberTests;
+			productName = BigNumberTests;
+			productReference = B3432C7F1940D3D400500DEA /* BigNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3432C6A1940D3D300500DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Sergey Fedortsov";
+				TargetAttributes = {
+					B3432C711940D3D400500DEA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B3432C7E1940D3D400500DEA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B3432C711940D3D400500DEA;
+					};
+				};
+			};
+			buildConfigurationList = B3432C6D1940D3D300500DEA /* Build configuration list for PBXProject "BigNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3432C691940D3D300500DEA;
+			productRefGroup = B3432C731940D3D400500DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3432C711940D3D400500DEA /* BigNumber */,
+				B3432C7E1940D3D400500DEA /* BigNumberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3432C701940D3D400500DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3432C7A1940D3D400500DEA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3432C7D1940D3D400500DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3432C6E1940D3D400500DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3432C781940D3D400500DEA /* AppDelegate.swift in Sources */,
+				B3432C901940D99B00500DEA /* NSDecimalNumberExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3432C7B1940D3D400500DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3432C861940D3D400500DEA /* BigNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3432C811940D3D400500DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3432C711940D3D400500DEA /* BigNumber */;
+			targetProxy = B3432C801940D3D400500DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3432C871940D3D400500DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3432C881940D3D400500DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3432C8A1940D3D400500DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BigNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3432C8B1940D3D400500DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BigNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3432C8D1940D3D400500DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BigNumber.app/BigNumber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BigNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B3432C8E1940D3D400500DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BigNumber.app/BigNumber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BigNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3432C6D1940D3D300500DEA /* Build configuration list for PBXProject "BigNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3432C871940D3D400500DEA /* Debug */,
+				B3432C881940D3D400500DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3432C891940D3D400500DEA /* Build configuration list for PBXNativeTarget "BigNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3432C8A1940D3D400500DEA /* Debug */,
+				B3432C8B1940D3D400500DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3432C8C1940D3D400500DEA /* Build configuration list for PBXNativeTarget "BigNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3432C8D1940D3D400500DEA /* Debug */,
+				B3432C8E1940D3D400500DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3432C6A1940D3D300500DEA /* Project object */;
+}
